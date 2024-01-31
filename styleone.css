@@ -1,0 +1,168 @@
+h2{
+  color: darkblue;
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: aqua;
+
+
+
+}
+.navbar .logo a{
+  color: black;
+  font-size: 28px;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-family: "Droid Sans Mono Slashed";
+
+}
+.navbar .all-links li{
+  list-style: none;
+  position: relative;
+  margin: 0 8px;
+
+}
+.navbar .all-links a{
+  text-decoration: none;
+  color: deeppink;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.navbar .all-links a:hover{
+  color: green;
+  text-decoration: underline;
+}
+.navbar .all-links{
+  display: flex;
+  position: relative;
+}
+body{
+  background-color: violet;
+}
+.home{
+  width: 100%;
+  height: 100vh;
+  background-image: url("home.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "DejaVu Sans";
+}
+.home .home-content{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home .text-one{
+  font-size: 25px;
+  color: red;
+}
+.home .text-two{
+  font-size: 65px;
+  color: darkblue;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .text-three{
+  font-size: 40px;
+  margin: 5px 0;
+  color: orangered;
+}
+.home .text-four{
+  font-size: 23px;
+  margin: 5px 0;
+  color: purple;
+}
+.home .button{
+
+  margin: 14px 0;
+}
+.home .button button{
+  padding: 8px 16px;
+  outline: none;
+  border-radius: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  background-color: darkgreen;
+  color: aqua;
+  cursor: pointer;
+  border: 5px solid transparent;
+}
+.home .button button:hover{
+  border-color: purple;
+  background-color: navajowhite;
+  color: orange;
+}
+.about{
+  width: 100%;
+  background-image: url("img.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin-top: 35px;
+}
+.about .about-content{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+
+}
+
+.about .t1{
+  font-weight: 600;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.about .t2{
+  font-weight:90;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.about .t3{
+  font-weight: 90;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.about .button{
+  margin: 14px 0;
+  align-self: center;
+}
+.about .button button{
+  padding: 8px 16px;
+  outline: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 5px solid transparent;
+
+}
+.about .button button:hover{
+  background-color: purple;
+  color: darkgoldenrod;
+  border-color: paleturquoise;
+}
